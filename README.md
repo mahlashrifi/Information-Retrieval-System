@@ -16,21 +16,20 @@ The project unfolded in two phases:
 
 ### Phase 1
 
-In the first phase, the following tasks were completed:
+tasks
 
   
 
 -  **Data Preprocessing**:
 
--  **Normalization**: Using the `hazm` library, the text is normalized to handle different variations of words (e.g., converting different spellings of the same word to a single standard form).
-
+-  **Normalization**: Using the `hazm` library, the text is normalized to handle different variations of words
 -  **Removing Punctuation**: Eliminating punctuation marks from the text.
 
 -  **Tokenization**: Splitting the text into individual tokens or words.
 
 -  **Stemming**: Reducing words to their root forms (e.g., "wants" and "wanted" to "want").
 
--  **Stop Words Removal**: Removing common words that do not carry significant meaning (e.g., "the", "and").
+-  **Stop Words Removal**: Removing common words (e.g., "the", "and").
 
   
   
@@ -43,14 +42,12 @@ In the second phase, the focus was on improving retrieval effectiveness and opti
 
 -  **Enhancing Retrieval Effectiveness**:
 
--  **TF-IDF Scoring**: Using Term Frequency-Inverse Document Frequency (TF-IDF) to rank documents based on relevance to the query.
-
+-  **TF-IDF Scoring**: Using Term Frequency-Inverse Document Frequency (TF-IDF) to rank documents.
 -  **Cosine Similarity**: Implementing cosine similarity to measure the similarity between query and document vectors.
 
 -  **Index Optimization**:
 
--  **Champion Lists**: Creating champion lists to speed up query processing and improve search results accuracy.
-
+-  **Champion Lists**: Creating champion lists to speed up query processing.
   
   
 
@@ -74,13 +71,13 @@ Heap's Law describes the relationship between the size of the vocabulary and the
 
 #### Heap's Law with Stop Words
 
-![Heap's Law with Stop Words](![https://github.com/mahlashrifi/Persian_Search_Engine/blob/main/report.pdf/screen-shots/Heap_with_stop_words.png)
+![Heap's Law with Stop Words](![https://github.com/mahlashrifi/Persian_Search_Engine/blob/main/report.pdf/screen_shots/Heap_with_stop_words.png)
 
   
 
 #### Heap's Law without Stop Words
 
-![Heap's Law without Stop Words](![https://github.com/mahlashrifi/Persian_Search_Engine/blob/main/report.pdf/screen-shots/Heap_without_stop_words.png)
+![Heap's Law without Stop Words](![https://github.com/mahlashrifi/Persian_Search_Engine/blob/main/report.pdf/screen_shots/Heap_without_stop_words.png)
 
   
 
@@ -93,10 +90,10 @@ Zipf's Law states that in a given corpus of natural language, the frequency of a
 
 #### Zipf's Law with Stop Words
 
-![Zipf's Law without Stop Words](![https://github.com/mahlashrifi/Persian_Search_Engine/blob/main/report.pdf/screen-shots/Zipf_with_stop_words.png)
+![Zipf's Law without Stop Words](![https://github.com/mahlashrifi/Persian_Search_Engine/blob/main/report.pdf/screen_shots/Zipf_with_stop_words.png)
 
   
 
 #### Zipf's Law without Stop Words
 
-![Zipf's Law without Stop Words](![https://github.com/mahlashrifi/Persian_Search_Engine/blob/main/report.pdf/screen-shots/Zipf_without_stop_words.png)
+![Zipf's Law without Stop Words](![https://github.com/mahlashrifi/Persian_Search_Engine/blob/main/report.pdf/screen_shots/Zipf_without_stop_words.png)
